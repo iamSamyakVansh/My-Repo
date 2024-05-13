@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section {
+    margin-bottom: 20px;
+    width: calc(50% - 20px);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 5px;
+}
+
+.skill.technical {
+    color: #3aafa9;
+}
+
+.skill.soft {
+    color: #999;
+}
+
+.contact img {
+    width: 20px;
+    margin-right: 10px;
+}
